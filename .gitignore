@@ -1,0 +1,10 @@
+# Ignore default GCC output
+a.out
+
+# Ignore any executables (no extension, Linux/macOS)
+*
+
+# But don’t ignore source code or makefiles
+!*.c
+!*.h
+!*.gitignore
