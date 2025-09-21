@@ -1,0 +1,38 @@
+Chap: 2
+
+Stack – Introduction & Basics
+	1.	Introduction to Stack
+	•	Definition of Stack
+	•	Real-life examples of Stack (LIFO principle: Last In First Out)
+	•	Applications of Stack
+	2.	Stack as an Abstract Data Type (ADT)
+	•	Concept of ADT
+	•	Representation of Stack as ADT
+	•	Characteristics & constraints
+
+⸻
+
+Stack Operations
+	3.	Basic Operations on Stack
+	•	Push (Insertion)
+	•	Pop (Deletion)
+	•	Peek/Top (Access element)
+	•	isEmpty / isFull (Status checks)
+
+⸻
+
+Implementation of Stack
+	4.	Array Implementation of Stack
+	•	Using static arrays
+	•	Drawbacks & limitations
+	5.	Multiple Stacks
+	•	Concept of storing more than one stack in a single array
+	•	Memory optimization
+
+⸻
+
+Applications of Stack
+	6.	Evaluation of Arithmetic Expressions
+	•	Infix, Prefix, Postfix expressions
+	•	Conversion between expressions
+	•	Evaluation using stack
