@@ -1,4 +1,4 @@
-Chap: 2
+Unit 2: Stack
 
 Stack – Introduction & Basics
 	1.	Introduction to Stack
@@ -36,3 +36,61 @@ Applications of Stack
 	•	Infix, Prefix, Postfix expressions
 	•	Conversion between expressions
 	•	Evaluation using stack
+
+
+
+Unit 3: Queue
+
+1. Introduction to Queue
+	•	Definition of Queue
+	•	Characteristics of Queue (FIFO principle)
+	•	Real-life examples of Queue
+	•	Comparison with Stack
+
+⸻
+
+2. Abstract Data Type (ADT) of Queue
+	•	ADT definition for Queue
+	•	Queue operations:
+	•	enqueue() – Insert element
+	•	dequeue() – Delete element
+	•	peek()/front() – Access first element
+	•	isEmpty() – Check if queue is empty
+	•	isFull() – Check if queue is full
+
+⸻
+
+3. Array Implementation of Queue
+	•	Representation of Queue using Array
+	•	Limitations of Simple Array Queue
+	•	Overflow & Underflow conditions
+	•	Example Programs
+
+⸻
+
+4. Types of Queues
+
+4.1 Circular Queue
+	•	Concept and Need for Circular Queue
+	•	Implementation using Arrays
+	•	Operations (enqueue, dequeue) in Circular Queue
+	•	Advantages over Linear Queue
+
+4.2 Priority Queue
+	•	Introduction to Priority Queue
+	•	Types of Priority Queue:
+	•	Ascending Priority Queue
+	•	Descending Priority Queue
+	•	Applications of Priority Queue
+
+4.3 Double Ended Queue (Deque)
+	•	Definition of Deque
+	•	Types:
+	•	Input-restricted Deque
+	•	Output-restricted Deque
+	•	Operations on Deque
+
+4.4 Multiple Queues
+	•	Concept of Multiple Queues
+	•	Need and Applications (e.g., CPU scheduling, Printer queue)
+	•	Implementation approaches
