@@ -11,11 +11,11 @@ void enqueue(int value)
         printf("Priority Queue Overflow\n");
         return;
     }
-    int i = n - 1;
+    int i = n - 1; // 0
     while (i >= 0 && queue[i] < value)
     {
         queue[i + 1] = queue[i];
-        i--;
+        i--; //-1
     }
     queue[i + 1] = value;
     n++;
