@@ -23,8 +23,8 @@ void enqueue(int value)
     }
     if (front == -1)
         front = 0;
-    rear = (rear + 1) % MAX;
-    queue[rear] = value;
+    rear = (rear + 1) % MAX; // next index
+    queue[rear] = value;     // value set
     printf("%d enqueued\n", value);
 }
 
@@ -50,18 +50,19 @@ void display()
         return;
     }
     printf("Queue elements: ");
+    // meaning of iteration in circular manner
     int i = front;
-    while (1)
+    while (1) // infite loop
     {
         printf("%d ", queue[i]);
         if (i == rear)
-            break;
-        i = (i + 1) % MAX;
+            break;         // exit condition
+        i = (i + 1) % MAX; // next index in circular manner
     }
     printf("\n");
 }
 
-int main()
+int main() // entry point
 {
     enqueue(10);
     enqueue(20);
