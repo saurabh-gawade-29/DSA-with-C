@@ -19,7 +19,7 @@ void insertRear(int value)
         front = rear = 0;
     }
     else if (rear == MAX - 1)
-    {
+    {   
         printf("Cannot insert at rear\n");
         return;
     }

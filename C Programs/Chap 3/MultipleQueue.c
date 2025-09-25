@@ -5,11 +5,11 @@
 // Queue structure
 struct Queue
 {
-    int arr[MAX];
-    int front, rear;
+    int arr[MAX];    // array to hold queue elements
+    int front, rear; // front and rear indices
 };
 
-// Initialize queue
+// Initialize queue // sturcutre me jo dot hota use replace kiya he ->
 void initQueue(struct Queue *q)
 {
     q->front = -1;
@@ -48,7 +48,7 @@ int dequeue(struct Queue *q)
     if (isEmpty(q))
     {
         printf("Queue is Empty!\n");
-        return -1;
+        return -1; // false value
     }
     int val = q->arr[q->front];
     if (q->front == q->rear)
