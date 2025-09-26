@@ -150,3 +150,6 @@ Unit 4: Linked List
 
 5. Advanced Operation
 	•	Reversing a Singly Linked List
+
+
+https://www.geeksforgeeks.org/dsa/types-of-linked-list/
