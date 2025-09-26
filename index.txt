@@ -94,3 +94,59 @@ Unit 3: Queue
 	•	Concept of Multiple Queues
 	•	Need and Applications (e.g., CPU scheduling, Printer queue)
 	•	Implementation approaches
+
+Unit 2: Linked List
+
+⸻
+
+1. Introduction to Linked Lists
+	•	Definition of Linked List
+	•	Characteristics of Linked Lists
+	•	Comparison: Linked List vs Array
+	•	Real-life Examples of Linked Lists
+
+⸻
+
+2. Types of Linked Lists
+	•	Singly Linked List
+	•	Doubly Linked List
+	•	Circular Linked List
+
+⸻
+
+3. Operations on Linked Lists
+
+3.1 Singly Linked List
+	•	Insertion:
+	•	At Beginning
+	•	At End
+	•	At Specific Position
+	•	Deletion:
+	•	From Beginning
+	•	From End
+	•	From Specific Position
+	•	Update Operation
+	•	Copying a Singly Linked List
+
+3.2 Doubly Linked List
+	•	Insertion:
+	•	At Beginning
+	•	At End
+	•	At Specific Position
+	•	Deletion:
+	•	From Beginning
+	•	From End
+	•	From Specific Position
+	•	Update Operation
+	•	Copying a Doubly Linked List
+
+⸻
+
+4. Applications of Linked Lists
+	•	Implementation of Stack using Linked List
+	•	Implementation of Queue using Linked List
+
+⸻
+
+5. Advanced Operation
+	•	Reversing a Singly Linked List
