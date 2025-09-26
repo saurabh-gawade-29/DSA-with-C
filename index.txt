@@ -95,7 +95,7 @@ Unit 3: Queue
 	•	Need and Applications (e.g., CPU scheduling, Printer queue)
 	•	Implementation approaches
 
-Unit 2: Linked List
+Unit 4: Linked List
 
 ⸻
 
