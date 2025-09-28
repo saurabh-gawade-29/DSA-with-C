@@ -4,8 +4,8 @@
 struct Node
 {
     int data;
-    struct Node *prev;
-    struct Node *next;
+    struct Node *prev; // prev means previous node
+    struct Node *next; // next means next node
 };
 
 int main()
@@ -13,24 +13,30 @@ int main()
     struct Node *head = NULL;
     struct Node *second = NULL;
     struct Node *third = NULL;
+    struct Node *forth = NULL;
 
     // Allocate memory
     head = (struct Node *)malloc(sizeof(struct Node));
     second = (struct Node *)malloc(sizeof(struct Node));
     third = (struct Node *)malloc(sizeof(struct Node));
+    forth = (struct Node *)malloc(sizeof(struct Node));
 
     // Assign data
-    head->data = 10;
     head->prev = NULL;
+    head->data = 10;
     head->next = second;
 
-    second->data = 20;
     second->prev = head;
+    second->data = 20;
     second->next = third;
 
-    third->data = 30;
     third->prev = second;
-    third->next = NULL;
+    third->data = 30;
+    third->next = forth;
+
+    forth->prev = third;
+    forth->data = 40;
+    forth->next = NULL;
 
     // Traversal forward
     struct Node *temp = head;
