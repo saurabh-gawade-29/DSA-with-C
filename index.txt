@@ -153,3 +153,61 @@ Unit 4: Linked List
 
 
 https://www.geeksforgeeks.org/dsa/types-of-linked-list/
+
+
+Unit 5: Trees
+
+⸻
+
+1. Introduction to Trees
+	•	Definition of Tree
+	•	Hierarchical structure and properties
+	•	Real-life examples of Tree (family tree, file system, organization hierarchy)
+	•	Applications of Trees
+
+⸻
+
+2. Tree Terminologies
+	•	Root, Parent, Child
+	•	Leaf, Sibling, Ancestor, Descendant
+	•	Degree of Node, Degree of Tree
+	•	Depth, Height, Level, Path
+	•	Subtree
+
+⸻
+
+3. Binary Tree
+	•	Definition of Binary Tree
+	•	Properties of Binary Tree
+	•	Binary Tree Representations
+	•	Linked Representation
+	•	Array Representation
+
+⸻
+
+4. Types of Binary Tree
+	•	Full Binary Tree
+	•	Complete Binary Tree
+	•	Perfect Binary Tree
+	•	Balanced Binary Tree
+	•	Skewed Binary Tree (Left/Right)
+
+⸻
+
+5. Binary Tree Traversals
+	•	Depth-First Traversals
+	•	Inorder (L → Root → R)
+	•	Preorder (Root → L → R)
+	•	Postorder (L → R → Root)
+	•	Breadth-First Traversal (Level-order Traversal)
+
+⸻
+
+6. Binary Search Tree (BST)
+	•	Definition and Properties
+	•	Applications of BST
+
+6.1 Operations on BST
+	•	Insertion of a Node
+	•	Searching for a Node
+	•	Deletion of a Node (3 cases: leaf, one child, two children)
