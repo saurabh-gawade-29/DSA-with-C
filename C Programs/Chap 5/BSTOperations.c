@@ -96,6 +96,8 @@ void inorder(struct Node *root)
         inorder(root->right);
     }
 }
+// HomeWork: Implement Preorder and Postorder Traversals for BST
+// Photo bhejo
 
 int main()
 {

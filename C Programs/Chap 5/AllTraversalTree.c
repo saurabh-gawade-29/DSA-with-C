@@ -51,6 +51,15 @@ void postorder(struct Node *root)
 
 int main()
 {
+    /*
+     1
+    / \
+    2  3
+   / \
+   4 5
+    */
+    
+
     struct Node *root = newNode(1);
     root->left = newNode(2);
     root->right = newNode(3);

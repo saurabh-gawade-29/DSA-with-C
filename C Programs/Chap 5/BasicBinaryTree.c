@@ -10,7 +10,7 @@ struct Node
 };
 
 // Function to create a new node
-struct Node *createNode(int value)
+struct Node *createNode(int value) // input parameter is value of the node
 {
     struct Node *newNode = (struct Node *)malloc(sizeof(struct Node));
     newNode->data = value;
