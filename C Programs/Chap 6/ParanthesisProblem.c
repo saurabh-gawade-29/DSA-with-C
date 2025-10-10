@@ -1,11 +1,11 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h> // string manupulation functions
 
-char stack[100];
-int top = -1;
+char stack[100]; // variable - 100
+int top = -1;    // empty stack
 
-void push(char c) { stack[++top] = c; }
-char pop() { return stack[top--]; }
+void push(char c) { stack[++top] = c; } // push expression
+char pop() { return stack[top--]; }     // delete expression
 
 int isMatching(char a, char b)
 {
@@ -14,7 +14,7 @@ int isMatching(char a, char b)
            (a == '[' && b == ']');
 }
 
-int isBalanced(char exp[])
+int isBalanced(char exp[]) // check for balanced expression 
 {
     for (int i = 0; i < strlen(exp); i++)
     {
@@ -35,7 +35,7 @@ int main()
 {
     char exp[100];
     printf("Enter expression: ");
-    // Use fgets instead of gets
+    // Use fgets instead of gets // depricated function
     fgets(exp, sizeof(exp), stdin);
     // Remove newline character added by fgets
     exp[strcspn(exp, "\n")] = 0;
